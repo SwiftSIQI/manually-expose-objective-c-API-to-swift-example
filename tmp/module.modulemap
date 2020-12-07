@@ -1,0 +1,4 @@
+module MyObjcPod {
+  header "UsefulClass.h"
+  export *
+}

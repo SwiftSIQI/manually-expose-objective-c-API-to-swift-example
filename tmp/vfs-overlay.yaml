@@ -1,0 +1,17 @@
+{
+  'version': 0,
+  'roots': [
+    { 'name': '/MyObjcPod', 'type': 'directory',
+      'contents': [
+        # NB: `external-contents` are relative paths, so would be relative
+        #     to the cwd of the compiler invocation.
+        { 'name': 'module.modulemap', 'type': 'file',
+          'external-contents': 'tmp/module.modulemap'
+        },
+        { 'name': 'UsefulClass.h', 'type': 'file',
+          'external-contents': 'repo/MyObjcPod/UsefulClass.h'
+        }
+      ]
+    }
+  ]
+}
